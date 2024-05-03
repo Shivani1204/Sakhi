@@ -1,0 +1,43 @@
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .doctor-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .doctor-details {
+    padding: 10px;
+  }
+  
+  .doctor-details h2 {
+    margin-top: 0;
+  }
+  
+  .doctor-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .doctor-details button:hover {
+    background-color: #0056b3;
+  }
+  
